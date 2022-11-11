@@ -79,7 +79,7 @@ namespace Singlly_linked_list
                 for (currentNode = START; currentNode != null;
                     currentNode = currentNode.next)
 
-                    Console.Write(currentNode.rollNumber + "" + currentNode.name + "\n");
+                    Console.Write(currentNode.rollNumber + "   " + currentNode.name + "\n");
                 Console.WriteLine();
             }
         }
@@ -189,12 +189,22 @@ namespace Singlly_linked_list
                                     Console.WriteLine("\n Roll number :" +   current.rollNumber);
                                     Console.WriteLine("\n Name : " + current.name);
                                 }
-
                             }
                             break ;
+                        case '5':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("\n Invalid option ");
+                                break ;
+                            }
 
                     }
 
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("\n Check for the value enterd");
                 }
             }
 
