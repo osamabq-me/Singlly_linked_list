@@ -14,6 +14,19 @@ namespace Singlly_linked_list
         public Node next;
     }
 
+    class list
+    {
+        Node START;
+
+        public list()
+        {
+            START = null;
+        }
+       
+
+
+    }
+
     class Program
     {
         static void Main(string[] args)
