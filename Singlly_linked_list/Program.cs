@@ -60,10 +60,12 @@ namespace Singlly_linked_list
                 }
                 previous = current;
                 current = current.next;
-
             }
 
-
+            /*once the above for loop is executed, prev and current are positioned in such a 
+              manner that the positon of the new node is added*/
+            newnode.next = current;
+            previous.next = newnode;
         }
 
 
