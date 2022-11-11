@@ -97,7 +97,6 @@ namespace Singlly_linked_list
             return true;
         }
 
-
         public bool Search(int nim, ref Node previous, ref Node current)
         {
             previous = START;
@@ -119,14 +118,17 @@ namespace Singlly_linked_list
             else
                 return false;
         }
-
-
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+            list obj = new list();
+
+
+
+
         }
     }
 }
